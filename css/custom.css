@@ -38,7 +38,7 @@ img.logo {
 img.logo-horizontal {
 	width: 40%;
 	margin-top: 0.2em;
-	margin-bottom: 0.4em;
+	margin-bottom: 0.6em;
 }
 p.caption {
 	font-size: 1.4em;
@@ -108,8 +108,8 @@ button.sign-in:hover, button.create-account:hover {
 		}
 		img.logo-horizontal {
 			margin-bottom: 1.5em;
-			margin-top: 1.5em;
-			width: 80%;
+			margin-top: 1em;
+			width: 40%;
 		}
 		img.module {
 			width: 100%;
