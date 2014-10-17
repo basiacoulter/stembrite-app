@@ -101,6 +101,7 @@ button.sign-in {
 	padding-top: 0.6em;
 }
 button.create-account, button.continue {
+	font-weight: bold;
 	background-color: #0fa84a;
 	color: #f8ed31;
 	border: 2px solid #0B662D;
