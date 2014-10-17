@@ -48,19 +48,19 @@ h2.welcome {
 	color: #0fa84a;;
 }
 .module-screen h2 span {
-	font-size: 1.2em;
+	font-size: 1em;
 	text-transform: uppercase;
 }
 .module-screen p {
-	font-size: 2em;
+	font-size: 2.2em;
 }
 p.caption, .module-screen p { 
 	color: #f8ed31;
 	text-transform: uppercase;
+	font-weight:bold;
 }
 p.caption {
 	font-size: 1.4em;
-	font-weight:bold;
 	position: absolute;
 	bottom: 0;
 	text-align: center;
@@ -91,7 +91,7 @@ form.sign-in input {
 	height: 50px;
 	font-size: 1.4em;
 }
-button: hover {
+button:hover {
 	cursor: pointer;
 }
 button.sign-in {
@@ -102,7 +102,7 @@ button.sign-in {
 }
 button.create-account, button.continue {
 	background-color: #0fa84a;
-	color: #fff;
+	color: #f8ed31;
 	border: 2px solid #0B662D;
 }
 button.create-account {
@@ -114,7 +114,7 @@ button.continue {
 	width: 60%;
 	position: absolute;
 	left: 20%;
-	padding-top: 0.8em;
+	padding-top: 0.6em;
 	margin-top: 1em;
 	text-transform: uppercase;
 }
