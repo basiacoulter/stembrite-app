@@ -91,15 +91,12 @@ button.sign-in:hover, button.create-account:hover {
 /* Tablet styles */
 
 @media (min-width: 768px) {
-		header {
-			margin-top: 50px;
-		}
 		img.logo {
-			width: 300px;
-			margin-top: 50px;
+		width: 300px;
+		margin-top: 80px;
 		}
 		img.logo-horizontal {
-			margin-bottom: 1em;
+			margin-bottom: 1.5em;
 			width: 80%;
 		}
 		img.module {
@@ -109,7 +106,7 @@ button.sign-in:hover, button.create-account:hover {
 			width: 60%;
 		}
 		p.caption {
-			font-size: 4em;
+			font-size: 3em;
 		}
 }
 
