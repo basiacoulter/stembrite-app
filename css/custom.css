@@ -9,6 +9,15 @@ html, body {
 body {
 	background-color: #F2C457;
 }
+.col-xs-12 header {
+	margin-top: 1.5em;
+}
+div.module {
+	position: relative;
+}
+div.module:last {
+	margin-bottom: 1.5em;
+}
 a, a:hover, a:focus {
 	text-decoration: none;
 }
@@ -22,6 +31,9 @@ h2.welcome {
 	display: block;
 	padding: 0;
 	margin: 0;
+}
+.col-xs-12 h2.welcome {
+	margin-bottom: 1.5em;
 }
 .logo img {
 	width: 240px;
@@ -39,9 +51,6 @@ p.caption {
 	margin-bottom: 0;
 	padding-top: 1em;
 	padding-bottom: 1em;
-}
-div.module {
-	position: relative;
 }
 
 
@@ -97,6 +106,7 @@ button.sign-in:hover, button.create-account:hover {
 		}
 		img.logo-horizontal {
 			margin-bottom: 1.5em;
+			margin-top: 1.5em;
 			width: 80%;
 		}
 		img.module {
