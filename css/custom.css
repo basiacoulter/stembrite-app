@@ -32,13 +32,8 @@ h2.welcome {
 .col-xs-12 h2.welcome {
 	margin-bottom: 0.4em;
 }
-img.logo {
-	width: 240px;
-}
-img.logo-horizontal {
-	width: 40%;
-	margin-top: 0.2em;
-	margin-bottom: 0.6em;
+.module-screen h2 {
+	text-align: center;
 }
 p.caption {
 	font-size: 1.4em;
@@ -54,7 +49,14 @@ p.caption {
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
-
+img.logo {
+	width: 240px;
+}
+img.logo-horizontal {
+	width: 40%;
+	margin-top: 0.2em;
+	margin-bottom: 0.6em;
+}
 
 /* Forms */
 p.sign-in {
