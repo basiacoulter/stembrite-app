@@ -21,6 +21,9 @@ div.module:last {
 div.video-container {
 	background-color: #0B662D;
 }
+.black-background {
+	background-color: #000;
+}
 a, a:hover, a:focus {
 	text-decoration: none;
 }
