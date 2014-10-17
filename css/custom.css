@@ -86,20 +86,21 @@ button.create-account:hover {
 button.sign-in:hover, button.create-account:hover {
 	transition: background-color ease-in 0.2s;
 	transition: color ease-in 0.2s;
-
+}
 
 /* Tablet styles */
 
-@media only screen 
-and (min-device-width : 641px) 
-and (max-device-width : 1024px) {
-		.logo img {
+@media (min-width: 768px) and (max-width: 979px) {
+		header {
+		margin-top: 50px;
+		}
+		img.logo {
 		width: 300px;
-		margin-top: 10%;
-	}
+		margin-top: 50px;
+		}
 		img.module {
 			width: 100%;
-	}
+		}
 		form input, button {
 			width: 60%;
 		}
