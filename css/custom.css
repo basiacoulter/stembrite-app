@@ -33,8 +33,6 @@ div.last-statement {
 }
 textarea.activity {
 	margin-bottom: 2em;
-	width: 96%;
-	margin-left: 2%;
 }
 a, a:hover, a:focus {
 	text-decoration: none;
@@ -95,6 +93,13 @@ p.statement {
 p.statement:first {
 	margin-top: 0;
 }
+p.congratulations {
+	margin-top: 2.5em;
+	margin-bottom: 2.5em;
+	font-size: 2em;
+	color: #0B662D;
+	text-align: center;
+}
 img.logo {
 	width: 240px;
 }
@@ -131,14 +136,22 @@ button.create-account, button.continue, button.submit {
 	font-weight: bold;
 	background-color: #0fa84a;
 	color: #f8ed31;
+}
+button.create-account, button.continue, button.submit, button.done {
 	border: 2px solid #0B662D;
+}
+button.done {	
+	color: #0fa84a;
+}
+button.done:hover {
+	color: #0B662D;;
 }
 button.create-account {
 	width: 100%;
 	margin-top: 1.4em;
 	margin-bottom: 2em;
 }
-button.continue, button.submit {
+button.continue, button.submit, button.done {
 	width: 60%;
 	position: absolute;
 	left: 20%;
@@ -198,7 +211,10 @@ button.sign-in:hover, button.create-account:hover {
 			padding: 0;
 			width: 100%;
 		}
-
+		textarea.activity {
+			width: 94%;
+			margin-left: 3%;
+		}
 }
 
 
