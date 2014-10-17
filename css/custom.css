@@ -9,7 +9,7 @@ html, body {
 body {
 	background-color: #F2C457;
 }
-div.module {
+div.module, div.continue {
 	position: relative;
 }
 div.module:last {
@@ -37,8 +37,9 @@ h2.welcome {
 	color: #8d5024;
 }
 .module-screen h2 span {
-	font-size: 2em;
+	font-size: 1.4em;
 	text-transform: uppercase;
+	color: #0B662D;
 }
 p.caption {
 	font-size: 1.4em;
@@ -84,19 +85,27 @@ button.sign-in {
 	color: #fff;
 	padding-top: 0.6em;
 }
+button.create-account, button.continue {
+	background-color: #0fa84a;
+	color: #fff;
+	border: 2px solid #0B662D;
+}
 button.create-account {
 	width: 100%;
 	margin-top: 1.4em;
 	margin-bottom: 2em;
-	background-color: #0fa84a;
-	color: #fff;
-	border: 2px solid #0B662D;
+}
+button.continue {
+	position: absolute;
+	right: 5%;
+	margin-top: 2em;
+	text-transform: uppercase;
 }
 button.sign-in:hover {
 	color: #f8ed31;
 	background-color: #5d3619;
 }
-button.create-account:hover {
+button.create-account:hover, button.continue:hover {
 	color: #0fa84a;
 	background-color: #0B662D;
 	border: 2px solid #0B662D;
@@ -126,6 +135,11 @@ button.sign-in:hover, button.create-account:hover {
 		}
 		p.caption {
 			font-size: 3em;
+		}
+		button.continue {
+			width: 60%;
+			position: absolute;
+			left: 20%;
 		}
 }
 
