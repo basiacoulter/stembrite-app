@@ -27,7 +27,7 @@ h2.welcome {
 	width: 240px;
 }
 p.caption {
-	font-size: 0.5em;
+	font-size: 1em;
 	position: absolute;
 	bottom: 0;
 	text-align: center;
@@ -36,8 +36,8 @@ p.caption {
 	background-color: rgba(11, 102,045, 0.8);
 	width: 100%;
 	margin-bottom: 0;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 div.module {
 	position: relative;
