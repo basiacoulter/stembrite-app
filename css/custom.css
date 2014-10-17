@@ -140,10 +140,7 @@ button.create-account, button.continue, button.submit {
 button.create-account, button.continue, button.submit, button.done {
 	border: 2px solid #0B662D;
 }
-button.done {	
-	color: #0fa84a;
-}
-button.done:hover {
+button.done, button.done:hover {
 	color: #0B662D;;
 }
 button.create-account {
