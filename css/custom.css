@@ -150,7 +150,7 @@ button.sign-in:hover {
 	color: #f8ed31;
 	background-color: #5d3619;
 }
-button.create-account:hover, button.continue:hover {
+button.create-account:hover, button.continue:hover, button.submit:hover {
 	color: #0fa84a;
 	background-color: #0B662D;
 	border: 2px solid #0B662D;
