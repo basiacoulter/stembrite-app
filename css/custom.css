@@ -9,9 +9,6 @@ html, body {
 body {
 	background-color: #F2C457;
 }
-.col-xs-12 div.logo {
-	margin-top: 1.5em;
-}
 div.module {
 	position: relative;
 }
@@ -35,8 +32,13 @@ h2.welcome {
 .col-xs-12 h2.welcome {
 	margin-bottom: 1.5em;
 }
-.logo img {
+img.logo {
 	width: 240px;
+}
+img.logo-horizontal {
+	width: 40%;
+	margin-top: 0.2em;
+	margin-bottom: 0.4em;
 }
 p.caption {
 	font-size: 1.4em;
