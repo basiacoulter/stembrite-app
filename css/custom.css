@@ -8,6 +8,7 @@ html, body {
 }
 body {
 	background-color: #F2C457;
+	padding-bottom: 2em;
 }
 div.module, div.continue {
 	position: relative;
@@ -18,11 +19,17 @@ div.continue {
 div.module:last {
 	margin-bottom: 1.5em;
 }
-div.video-container {
+div.video-container, .green-background {
 	background-color: #0B662D;
 }
 .black-background {
 	background-color: #000;
+}
+div.activity-container {
+	background-color: #eee;
+}
+div.last-statement {
+	padding-bottom: 2em;
 }
 a, a:hover, a:focus {
 	text-decoration: none;
@@ -43,6 +50,7 @@ h2.welcome {
 }
 .module-screen {
 	text-align: center;
+	padding: 0;
 }
 .module-screen h2 {
 	color: #0fa84a;;
@@ -70,6 +78,17 @@ p.caption {
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
+p.instruction {
+	font-size: 1.4em;
+	margin-top: 1em;
+	text-align: center;
+}
+p.statement {
+	margin-top: 1.4em;
+}
+p.statement:first {
+	margin-top: 0;
+}
 img.logo {
 	width: 240px;
 }
@@ -78,7 +97,9 @@ img.logo-horizontal {
 	margin-top: 0.2em;
 	margin-bottom: 0.6em;
 }
-
+.clearfix {
+	clear: both;
+}
 /* Forms */
 p.sign-in {
 	font-size: 1.8em;
@@ -100,7 +121,7 @@ button.sign-in {
 	color: #fff;
 	padding-top: 0.6em;
 }
-button.create-account, button.continue {
+button.create-account, button.continue, button.submit {
 	font-weight: bold;
 	background-color: #0fa84a;
 	color: #f8ed31;
@@ -111,13 +132,19 @@ button.create-account {
 	margin-top: 1.4em;
 	margin-bottom: 2em;
 }
-button.continue {
+button.continue, button.submit {
 	width: 60%;
 	position: absolute;
 	left: 20%;
 	padding-top: 0.6em;
-	margin-top: 1em;
 	text-transform: uppercase;
+}
+button.continue {
+	margin-top: 1em;
+}
+button.submit {
+	margin-top: 2em;
+	margin-bottom: 1.4em;
 }
 button.sign-in:hover {
 	color: #f8ed31;
@@ -145,15 +172,27 @@ button.sign-in:hover, button.create-account:hover {
 			margin-top: 1em;
 			width: 40%;
 		}
-		img.module {
+		img.module, img.module-three {
 			width: 100%;
 		}
 		form input, button {
 			width: 60%;
 		}
+		.module-screen-heading {
+			display: block;
+			width: 100%;
+		}
 		p.caption {
 			font-size: 3em;
 		}
+		p.statement {
+			text-align: center;
+		}
+		div.activity-container {
+			padding: 0;
+			width: 100%;
+		}
+
 }
 
 
