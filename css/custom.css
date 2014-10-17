@@ -92,17 +92,24 @@ button.sign-in:hover, button.create-account:hover {
 
 @media (min-width: 768px) {
 		header {
-		margin-top: 50px;
+			margin-top: 50px;
 		}
 		img.logo {
-		width: 300px;
-		margin-top: 50px;
+			width: 300px;
+			margin-top: 50px;
+		}
+		img.logo-horizontal {
+			margin-bottom: 1em;
+			width: 80%;
 		}
 		img.module {
 			width: 100%;
 		}
 		form input, button {
 			width: 60%;
+		}
+		p.caption {
+			font-size: 4em;
 		}
 }
 
