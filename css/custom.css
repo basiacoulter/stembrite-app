@@ -12,8 +12,14 @@ body {
 div.module, div.continue {
 	position: relative;
 }
+div.continue {
+	margin-bottom: 1.4em;
+}
 div.module:last {
 	margin-bottom: 1.5em;
+}
+div.video-container {
+	background-color: #0B662D;
 }
 a, a:hover, a:focus {
 	text-decoration: none;
@@ -34,12 +40,11 @@ h2.welcome {
 }
 .module-screen h2 {
 	text-align: center;
-	color: #8d5024;
+	color: #f8ed31;;
 }
 .module-screen h2 span {
 	font-size: 1.4em;
 	text-transform: uppercase;
-	color: #0B662D;
 }
 p.caption {
 	font-size: 1.4em;
@@ -90,17 +95,16 @@ button.create-account, button.continue {
 	color: #fff;
 	border: 2px solid #0B662D;
 }
-button.create-account, button.continue {
-	margin-bottom: 2em;
-}
 button.create-account {
 	width: 100%;
 	margin-top: 1.4em;
+	margin-bottom: 2em;
 }
 button.continue {
+	width: 60%;
 	position: absolute;
-	right: 5%;
-	margin-top: 2em;
+	left: 20%;
+	margin-top: 1em;
 	text-transform: uppercase;
 }
 button.sign-in:hover {
@@ -137,11 +141,6 @@ button.sign-in:hover, button.create-account:hover {
 		}
 		p.caption {
 			font-size: 3em;
-		}
-		button.continue {
-			width: 60%;
-			position: absolute;
-			left: 20%;
 		}
 }
 
