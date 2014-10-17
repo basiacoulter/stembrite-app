@@ -90,10 +90,12 @@ button.create-account, button.continue {
 	color: #fff;
 	border: 2px solid #0B662D;
 }
+button.create-account, button.continue {
+	margin-bottom: 2em;
+}
 button.create-account {
 	width: 100%;
 	margin-top: 1.4em;
-	margin-bottom: 2em;
 }
 button.continue {
 	position: absolute;
