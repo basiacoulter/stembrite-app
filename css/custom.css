@@ -41,12 +41,21 @@ h2.welcome {
 .col-xs-12 h2.welcome {
 	margin-bottom: 0.4em;
 }
-.module-screen h2 {
+.module-screen {
 	text-align: center;
-	color: #f8ed31;;
+}
+.module-screen h2 {
+	color: #0fa84a;;
 }
 .module-screen h2 span {
-	font-size: 1.4em;
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+.module-screen p {
+	font-size: 2em;
+}
+p.caption, .module-screen p { 
+	color: #f8ed31;
 	text-transform: uppercase;
 }
 p.caption {
@@ -55,8 +64,6 @@ p.caption {
 	position: absolute;
 	bottom: 0;
 	text-align: center;
-	text-transform: uppercase;
-	color: #f8ed31;
 	background-color: rgba(11, 102,045, 0.8);
 	width: 100%;
 	margin-bottom: 0;
@@ -107,6 +114,7 @@ button.continue {
 	width: 60%;
 	position: absolute;
 	left: 20%;
+	padding-top: 0.8em;
 	margin-top: 1em;
 	text-transform: uppercase;
 }
