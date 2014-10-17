@@ -1,0 +1,48 @@
+body {
+	background-color: #F2C457;
+}
+.logo img {
+	width: 260px;
+}
+/* Forms */
+p.sign-in {
+	font-size: 1.8em;
+	margin-top: 1em;
+	color: #AD7E0E;
+	text-align: center;
+	text-transform: uppercase;
+}
+form.sign-in input {
+	height: 50px;
+	font-size: 1.4em;
+}
+button: hover {
+	cursor: pointer;
+}
+button.sign-in {
+	width: 100%;
+	background-color: #8d5024;
+	color: #fff;
+	padding-top: 0.6em;
+}
+button.create-account {
+	width: 100%;
+	margin-top: 1.4em;
+	margin-bottom: 2em;
+	background-color: #0fa84a;
+	color: #fff;
+	border: 2px solid #0B662D;
+}
+button.sign-in:hover {
+	color: #f8ed31;
+	background-color: #5d3619;
+}
+button.create-account:hover {
+	color: #0fa84a;
+	background-color: #0B662D;
+	border: 2px solid #0B662D;
+}
+button.sign-in:hover, button.create-account:hover {
+	transition: background-color ease-in 0.2s;
+	transition: color ease-in 0.2s;
+}
