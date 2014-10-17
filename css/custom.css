@@ -27,7 +27,8 @@ h2.welcome {
 	width: 240px;
 }
 p.caption {
-	font-size: 1.2em;
+	font-size: 1.4em;
+	font-weight:bold;
 	position: absolute;
 	bottom: 0;
 	text-align: center;
@@ -85,4 +86,50 @@ button.create-account:hover {
 button.sign-in:hover, button.create-account:hover {
 	transition: background-color ease-in 0.2s;
 	transition: color ease-in 0.2s;
+
+
+/* Tablet styles */
+
+@media only screen 
+and (min-device-width : 641px) 
+and (max-device-width : 1024px) {
+		.logo img {
+		width: 300px;
+		margin-top: 10%;
+	}
+		img.module {
+			width: 100%;
+	}
+		form input, button {
+			width: 60%;
+		}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
